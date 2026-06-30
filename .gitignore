@@ -1,0 +1,27 @@
+# Environment files - NEVER push API keys
+.env
+**/.env
+*.env
+
+# Virtual environments - too heavy
+venv/
+**/venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
